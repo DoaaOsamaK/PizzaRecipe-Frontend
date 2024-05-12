@@ -1,0 +1,53 @@
+/* Styles for the main container */
+#recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;  /* Space between recipe cards */
+}
+
+/* Styles for individual recipe cards */
+#recipe-container div {
+    flex-basis: 300px; /* Width of each card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Simple shadow for depth */
+    border-radius: 8px;  /* Rounded corners */
+    overflow: hidden;  /* Ensures no overflow from child elements */
+    background: #fff;  /* White background for the cards */
+    transition: transform 0.3s ease;  /* Smooth transform on hover */
+}
+
+/* Image styling within cards */
+#recipe-container img {
+    width: 100%;  /* Full width of the card */
+    height: 200px;  /* Fixed height for images */
+    object-fit: cover;  /* Ensures the image covers the space without distortion */
+}
+
+/* Styling for headings inside the cards */
+#recipe-container h3 {
+    padding: 10px 15px;  /* Padding around the title */
+    font-size: 1.2rem;  /* Slightly larger font size for titles */
+    color: #333;  /* Dark grey color for text */
+    margin-top: 0;
+}
+
+/* Paragraph styling inside the cards */
+#recipe-container p {
+    padding: 0 15px 10px;  /* Padding around the paragraphs */
+    margin: 0;  /* Remove default margin */
+    color: #666;  /* Lighter grey color for text */
+    font-size: 0.9rem;  /* Smaller font size for details */
+}
+
+/* Styling for links to be more noticeable */
+#recipe-container a {
+    color: #007BFF;  /* Bootstrap primary color for links */
+    text-decoration: none;  /* No underline */
+}
+
+/* Hover effect for cards */
+#recipe-container div:hover {
+    transform: translateY(-5px);  /* Lift card slightly on hover */
+    cursor: pointer;
+}
