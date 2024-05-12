@@ -1,7 +1,11 @@
-# Recipe website 🍽️
+# 🍽️ Recipe website 
 
-## Project Overview 📑
+## 📑 Project Overview 
 This project is a simple web application that demonstrates the use of asynchronous JavaScript to fetch data from an external API and display it dynamically on the webpage. The application queries the Forkify API to fetch recipes based on a specified query ("pizza" in this case) and displays the results in a visually appealing format using CSS for styling.
+
+
+![Macbook-Air-doaaosamak github io](https://github.com/DoaaOsamaK/PizzaRecipe-Frontend/assets/147305995/f184092e-341c-4818-8a78-3998662c5f09)
+
 
 ## 📚 Table of Contents
 
@@ -13,7 +17,7 @@ This project is a simple web application that demonstrates the use of asynchrono
 - [Contributing](#contributing-🤝)
 - [Contact](#contact-📧)
 
-## Technologies Used 💻
+## 💻 Technologies Used 
 - HTML
 - CSS
 - JavaScript
@@ -22,7 +26,7 @@ This project is a simple web application that demonstrates the use of asynchrono
 ## 🔗 Demo
 [Live Demo](https://doaaosamak.github.io/PizzaRecipe-Frontend/)
 
-## Features ✨
+## ✨ Features 
 - **API Integration** 🛠️: Fetches recipe data in real-time from the Forkify API.
 - **Dynamic Content Generation** 📝: Uses JavaScript to dynamically generate HTML content based on API response.
 - **Responsive Design** 📱: Utilizes CSS Flexbox to ensure the layout is adaptable to various screen sizes.
